@@ -57,3 +57,11 @@ window.addEventListener('scroll', function() {
         mainNav.style.transform = `translateY(${-ratio * topBarHeight}px)`;
     }
 });
+
+// Zerar Scroll
+document.getElementById('scrollTopBtn').addEventListener('click', function () {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // rolagem suave
+  });
+});

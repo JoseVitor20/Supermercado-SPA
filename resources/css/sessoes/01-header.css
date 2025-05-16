@@ -177,6 +177,28 @@
     text-align: center;
 }
 
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  font-size: 20px;
+  padding-left: 19px;
+  transition: transform .5s;
+}
+
+#scrollTopBtn:hover{
+    transform: scale(1.1);
+}
+
 /* Media Queries para Desktop */
 @media (min-width: 769px) {
     .logo img {

@@ -45,6 +45,8 @@
     </nav>
 </header>
 
+<button id="scrollTopBtn"><i class="fa-solid fa-up-long"></i></button>
+
 <div class="demo-section section1">Seção 1</div>
 <div class="demo-section section2">Seção 2</div>
 <div class="demo-section section3">Seção 3</div>
