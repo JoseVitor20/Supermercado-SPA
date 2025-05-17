@@ -1,7 +1,7 @@
 .top-bar {
-    background-color: #008a28;
+    background-color: var(--primary);
     color: white;
-    padding: 6px;
+    padding: 8px;
     font-size: 12px;
     text-align: center;
     transition: all 0.3s ease;
@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 8px 15px;
-    background-color: #ff6633;
+    background-color: var(--secondary);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: relative;
     transition: all 0.3s ease;
@@ -41,14 +41,14 @@
     padding-bottom: 7px;
     font-size: 14px;
     margin: 0 auto;
-    border: 2px solid #2db254;
+    border: 2px solid var(--primary-light);
 }
 
 .search-button {
     background: none;
     border: none;
     cursor: pointer;
-    color: #2db254;
+    color: var(--primary-light);
     margin-left: -105px ;
     transition: transform 0.2s ease;
 }
@@ -79,14 +79,14 @@
 }
 
 .action-item:hover {
-    color: #008a28;
+    color: var(--primary);
 }
 
 .cart-count {
     position: absolute;
     top: -5px;
     right: -5px;
-    background-color: #008a28;
+    background-color: var(--primary);
     color: white;
     border-radius: 50%;
     width: 18px;
@@ -98,7 +98,7 @@
 }
 
 .nav-menu {
-    background-color: #008a28;
+    background-color: var(--primary);
     padding: 8px 15px;
     display: flex;
     justify-content: space-between;
@@ -129,12 +129,12 @@
 
 .nav-item:hover {
     padding: 10px;
-    background-color: #2db254;
+    background-color: var(--primary-light);
 }
 
 .nav-item.selected {
     padding: 10px;
-    background-color: #2db254;
+    background-color: var(--primary-light);
 }
 
 .fixed-header {
@@ -199,7 +199,7 @@
     top: 70px;
     left: 0;
     right: 0;
-    padding: 20px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
     bottom: 0;
     background-color: white;
     z-index: 999;
@@ -255,7 +255,7 @@
 }
 
 .mobile-menu-item i {
-    color: #ff6633;
+    color: var(--secondary);
     width: 20px;
     text-align: center;
 }
@@ -314,7 +314,7 @@
     }
 
     .mobile-menu {
-            top: 90px;
+        top: 93px;
     }
 }
 
@@ -324,10 +324,10 @@
     }
 
     .mobile-menu {
-            top: 94px;
+        top: 98px;
     }
 
     .logo img {
-            height: 30px;
+        height: 30px;
     }
 }
