@@ -295,24 +295,28 @@
 
 /* Responsividade */
 @media (max-width: 992px) {
+    body {
+        padding-top: 92px;
+    }
+
     .nav-menu, .search-container {
-            display: none;
+        display: none;
     }
 
     .mobile-menu-btn, .mobile-search-btn {
-            display: block;
+        display: block;
+    }
+
+    .mobile-menu {
+        top: 93px;
     }
 
     .user-actions .action-item span {
-            display: none;
+        display: none;
     }
 }
 
 @media (max-width: 768px) {
-    body {
-        padding-top: 90px;
-    }
-
     .mobile-menu {
         top: 93px;
     }
@@ -320,11 +324,11 @@
 
 @media (max-width: 480px) {
     body {
-        padding-top: 80px;
+        padding-top: 97px;
     }
 
     .mobile-menu {
-        top: 84px;
+        top: 97px;
     }
 
     .logo img {
